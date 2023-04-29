@@ -9,26 +9,25 @@ Beginning in September 2020, FHWA issued an award to Battelle Memorial Institute
 This repository containes the modified ODT code and an application example.
 
 ### TO DO 
-- create a requirements.txt file
 - share models 
 - share example video
 
 ### Installation
 1) Download this repository
-2) It is highly recommended to create a separate environment. Python 3.7 was used. You can create and activate the environment with
+2) It is highly recommended to create a separate environment. I tested the compatibility with Python3.7 and 3.11. You can create and activate the environment with
 ```
-conda create -n "moveover" python=3.7 ipython
-conda activate moveover
+conda create -n "MoveOver" python=3.11 ipython
+conda activate MoveOver
 ```
 
 2) Install the requirements with
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 3) Download the models from `LINK REQUIRED` to the models/ folder
 
 
-### Usage
+### Quick Start
 A quick start code is provided in the `MoveOver/example` folder. To use it you should download the video file from `LINK REQUIRED` to the `videos/` folder.
 Then yom may start running notebooks.
 - `01-PreparConfigs.ipynb` - helps to create a config file for each video
@@ -41,4 +40,4 @@ Then yom may start running notebooks.
 ### Acknowledgements
 This work would not have been possible without the sponsorship of the U.S. Department of Transportation. The views expressed are those of the authors and do not reflect the official policy or position of the US Department of Transportation or the US Government.
 
-The Deep SORT alrogithm is a variation of [Nicolai Wojke Deep Sort repository](https://github.com/nwojke/deep_sort).
+The Deep SORT implementation is a variation of [Nicolai Wojke Deep Sort repository](https://github.com/nwojke/deep_sort).
