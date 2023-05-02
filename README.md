@@ -8,9 +8,8 @@
 Beginning in September 2020, FHWA issued an award to Battelle Memorial Institute, the University of Maryland's Center for Advanced Transportation Technology (UMD CATT), and the Volpe National Transportation System Center to conduct a comprehensive, data-driven assessment of existing Move Over Laws in the United States. This effort included large dataset analytics covering multiple states and regions as well as automated incident scene observations using state-of-the-art Object Detection and Tracking (ODT) technologies already developed and deployed by UMD CATT. The ODT solution has been modified to focus on tracking vehicles as they travel by first responders (transportation, Fire/EMS, and or law enforcement) who are stopped on the highway with alert lights engaged.
 This repository containes the modified ODT code and an application example.
 
-### TO DO 
-- share models 
-- share example video
+### Models
+Due to the size we did not share the models here. If you want to use our models or to see the example video, feel free to reach me.
 
 ### Installation
 1) Download this repository
@@ -24,11 +23,11 @@ conda activate MoveOver
 ```
 pip install -r requirements.txt
 ```
-3) Download the models from `LINK REQUIRED` to the models/ folder
+3) Download the models from `CONTACT ME` to the models/ folder
 
 
 ### Quick Start
-A quick start code is provided in the `MoveOver/example` folder. To use it you should download the video file from `LINK REQUIRED` to the `videos/` folder.
+A quick start code is provided in the `MoveOver/example` folder. To use it you should download the video file from `CONTACT ME` to the `videos/` folder.
 Then yom may start running notebooks.
 - `01-PreparConfigs.ipynb` - helps to create a config file for each video
 - `02-CreateDetections.ipynb` - performs object detection
